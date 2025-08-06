@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_token_login/common/layout/default_layout.dart';
-import 'package:flutter_token_login/product/component/product_card.dart';
 import 'package:flutter_token_login/restaurant/component/restaurant_card.dart';
 import 'package:flutter_token_login/restaurant/model/restaurant_detail_model.dart';
 import 'package:flutter_token_login/restaurant/model/restaurant_model.dart';
@@ -60,8 +59,11 @@ class RestaurantDetailScreen extends ConsumerWidget {
 
             return Padding(
               padding: const EdgeInsets.only(top: 16.0),
-              child: ProductCard.fromModel(
-                model: model,
+              // child: ProductCard.fromModel(
+              //   model: model,
+              // ),
+              child: Text(
+                  'ddddd'
               ),
             );
           },
